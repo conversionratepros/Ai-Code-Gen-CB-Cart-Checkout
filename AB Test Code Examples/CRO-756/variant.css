@@ -1,0 +1,92 @@
+html body.cro-t-149 .cro-149-payments-inner {
+    display: flex;
+    padding: 15px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 12px; */
+    align-self: stretch;
+    border: 1px solid rgba(68, 84, 106, 0.20);
+    background: rgba(68, 84, 106, 0.10);
+}
+
+html body.cro-t-149 .cro-149-payments-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+html body.cro-t-149 .cro-149-paymentMethods {
+    display: flex;
+    align-items: flex-start;
+    /* gap: 10px; */
+    /* align-self: stretch; */
+    justify-content: center;
+}
+
+html body.cro-t-149 .cro-149-payments-header h3 {
+    color: #000;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+html body.cro-t-149 .cro-149-payments-content p {
+    color: #747474;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+html body.cro-t-149 .cro-149-payments-content {
+    margin: 10px 0 12px;
+}
+
+html body.cro-t-149 .cro-149-paymentMethod {
+    margin-right: 10px;
+}
+
+html body.cro-t-149 .cro-149-paymentMethod.cro-149-payFlix {
+    margin-right: 0;
+}
+
+html body.cro-t-149 .cro-149-paymentMethod img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Styles for screens with a minimum width of 768px and a maximum width of 1024px */
+@media (min-width: 768px) and (max-width: 1155px) {
+    /* html body.cro-t-149 .cro-149-payments-content p{
+        font-size: 11px;
+    } */
+html body.cro-t-149 .cro-149-paymentMethod {
+    margin-right: 0px !important;
+}
+
+
+    html body.cro-t-149 .cro-149-paymentMethods{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    
+}
+
+/* Styles for screens with a maximum width of 767px */
+@media (max-width: 767px) {
+    html body.cro-t-149 .cro-149-payments-content{
+        margin: 9px 0 12px;
+    }
+}
+
+/* @media (max-width: 346px) {
+    html body.cro-t-149 .cro-149-payments-content p{
+        font-size: 10px;
+    }
+} */

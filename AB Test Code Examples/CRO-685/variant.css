@@ -1,0 +1,465 @@
+@media screen and (max-width: 767px) {
+    html[data-cro-step="cro_my_cart"] body {
+        padding-bottom: 131px;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        background: #fff;
+        z-index: 11;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody .terms-container {
+        display: none;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 20px;
+        border-top: 1px solid #e1e1e1;
+        box-shadow: 0px -5px 16px 0px rgba(0, 0, 0, 0.15);
+        gap: 0;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals table {
+        display: flex;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody > tr {
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        width: 100%;
+        order: 2;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody tr.cro685-grand-total {
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
+        padding-right: 30px;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody tr.cro685-grand-total span.price {
+        color: #000;
+        font-family: inherit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody > tr.shipping {
+        order: 3;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody tr.cro685-continue-cta {
+        order: 4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody th.button-continue-container.mark {
+        width: 100%;
+        padding: 0 !important;
+        padding-top: 20px !important;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody .shipping-container {
+        display: none;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody .cro685-continue-cta::before {
+        content: "*The final shipping fee will be calculated during checkout.";
+        color: #414141;
+        font-family: inherit;
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody th {
+        padding: 0;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody td {
+        padding: 0;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody tr.cro685-grand-total th.mark strong {
+        font-size: 0;
+        line-height: 0;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody tr.cro685-grand-total th.mark strong::after {
+        content: "Grand Total Incl. VAT";
+        color: #000;
+        font-family: inherit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody > tr:not(.grand.totals) > th {
+        color: #000;
+        font-family: inherit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        float: left;
+        max-width: 70%;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody > tr:not(.grand.totals) > td {
+        color: #000;
+        font-family: Poppins;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        float: right;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody > tr:not(.grand.totals):not(.shipping) > th:after,
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody > tr.shipping > th > span:last-child::after {
+        content: ":";
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody .cre-dropdown-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        min-width: 24px;
+        height: 24px;
+        position: absolute;
+        transform: rotate(0deg);
+        transition: transform 0.3s linear;
+        top: 0;
+        right: 0;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody .cre-dropdown-icon svg {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody.cre-dropdown-active tr.cro685-grand-total {
+        padding-bottom: 17px;
+        border-bottom: 1px solid #d9d9d9;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody:not(.cre-dropdown-active) > tr:not(.grand.totals),
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody:not(.cre-dropdown-active) .cro685-continue-cta::before {
+        display: none;
+    }
+
+    /* html[data-cro-step="cro_my_cart"] body #cart-totals tbody.cre-dropdown-active > tr:not(.grand.totals) {
+        display: flex;
+        gap: 10px;
+    } */
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody.cre-dropdown-active .cro685-continue-cta::before {
+        display: flex;
+        gap: 10px;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody.cre-dropdown-active {
+        gap: 17px;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody.cre-dropdown-active .cre-step1-dropdown-icon {
+        transform: rotate(180deg);
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody th.button-continue-container.mark button.continue-button-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 7px 15px !important;
+        color: #fff;
+        text-align: center;
+        font-size: 13px;
+        font-style: normal;
+        line-height: normal;
+        font-weight: 700;
+        /* font-family: 'Poppins'; */
+        background-color: #000 !important;
+        border-color: #000;
+        height: 39px;
+    }
+
+    html[data-cro-step="cro_my_cart"] body #cart-totals tbody th.button-continue-container.mark button.continue-button-container > span:last-child {
+        display: none;
+    }
+
+    /* ___________________________________________________ */
+    /* ___________________________________________________ */
+    /* ___________________________________________________ */
+    /* ___________________________________________________ */
+    /* ___________________________________________________ */
+    /* ___________________________________________________ */
+    html[data-cro-step="cro_delivery"] body {
+        padding-bottom: 85px;
+    }
+
+    html[data-cro-step="cro_delivery"] body #shipping-method-buttons-container {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        padding: 20px;
+        background: #f5f5f5;
+        z-index: 9;
+        border-top: 1px solid #e1e1e1;
+        box-shadow: 0px -5px 16px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    html[data-cro-step="cro_delivery"] body #shipping-method-buttons-container > .primary > button {
+        margin: 0;
+        color: #fff;
+        text-align: center;
+        font-family: inherit;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase !important;
+        background-color: #000 !important;
+        border-color: #000;
+        height: 39px;
+    }
+
+    /* ___________________________________________________ */
+    /* ___________________________________________________ */
+    /* ___________________________________________________ */
+    /* ___________________________________________________ */
+    /* ___________________________________________________ */
+    /* ___________________________________________________ */
+    html[data-cro-step="cro_payment"] body {
+        padding-bottom: 65px;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper {
+        position: fixed !important;
+        width: 100% !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+        padding: 0px;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper > [data-role="focusable-start"] {
+        display: none;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper header.modal-header {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        box-shadow: none;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper .opc-block-shipping-information {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        box-shadow: none;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper .opc-block-summary {
+        border: 0;
+        margin: 0;
+        padding: 20px;
+        position: relative;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper .title[data-bind*="Order Summary"] {
+        padding-bottom: 0;
+        padding-right: 0;
+        color: #000;
+        font-family: inherit;
+        font-size: 16px !important;
+        font-style: normal;
+        font-weight: 500 !important;
+        line-height: normal;
+        border-bottom: 0;
+        position: relative;
+        z-index: 1;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper .block.items-in-cart {
+        margin: 0;
+        padding: 0;
+        display: none;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper tbody {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        gap: 17px;
+        padding: 17px 0 0 0;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper tbody > tr {
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* flex-direction: row; */
+        width: 100%;
+        order: 4;
+        align-items: flex-start;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper tbody > tr.totals.sub {
+        order: 1;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper tbody > tr.totals.shipping.incl {
+        order: 3;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper tbody > tr.totals-tax {
+        order: 2;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper tbody > tr.grand.totals {
+        order: 5;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper tbody > tr > th {
+        padding: 0;
+        color: #000;
+        font-family: inherit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        max-width: 221px;
+        width: 100%;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper tbody > tr > td {
+        padding: 0;
+        color: #000;
+        font-family: inherit;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper .items-in-cart > .title {
+        padding: 17px 0;
+        position: relative;
+        color: #000;
+        font-family: inherit;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper .items-in-cart > .title::after {
+        content: "";
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='25' viewBox='0 0 24 25' fill='none'%3E%3Cpath d='M6 9.5L12 15.5L18 9.5' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-size: contain;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        transform: rotate(0deg);
+        transition: transform 0.3s linear;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper .items-in-cart.active > .title::after {
+        transform: rotate(180deg);
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper tbody > tr.shipping > th.mark .value {
+        color: #8f8f8f;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper tbody > tr.grand.totals th strong {
+        font-weight: inherit;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper tbody > tr.grand.totals th strong::after {
+        content: ":";
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper .opc-block-summary > .table-totals {
+        display: none;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper .items-in-cart > .title strong {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper .cre-dropdown-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 24px;
+        min-width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        transform: rotate(0deg);
+        transition: transform 0.3s linear;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper .cre-dropdown-icon svg {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper .cre-dropdown2-active .cre-dropdown-icon {
+        transform: rotate(180deg);
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper .cre-dropdown2-active .title[data-bind*="Order Summary"] {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #d9d9d9;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper .opc-block-summary.cre-dropdown2-active > .table-totals {
+        display: block;
+    }
+
+    html[data-cro-step="cro_payment"] body #checkout .opc-summary-wrapper .cre-dropdown2-active .block.items-in-cart {
+        display: block;
+    }
+}

@@ -1,0 +1,216 @@
+/* updated code */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+html body.RecipeCartContinue.cro-t-ki151_ki152 .update-shopping-container {
+    border: 1px solid #000 !important;
+    background-color: transparent !important;
+}
+
+html body.RecipeCartContinue.cro-t-ki151_ki152 .update-shopping-container span {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+html body.RecipeCartContinue.cro-t-ki151_ki152 button.button-container.action.apply.primary {
+    border: 1px solid #000;
+    background-color: transparent !important;
+}
+
+html body.RecipeCartContinue.cro-t-ki151_ki152 button.button-container.action.apply.primary span {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+html body.RecipeCartContinue.cro-t-ki151_ki152 button.button-container.action.apply-aw-giftcard.primary {
+    border: 1px solid #000;
+    background-color: transparent !important;
+    color: #000 !important;
+    text-align: center;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+html body.RecipeCartContinue.cro-t-ki151_ki152 .secondary button.button-container.action.check-aw-giftcard {
+    background-color: transparent !important;
+    border: none;
+}
+
+html body.RecipeCartContinue.cro-t-ki151_ki152 .secondary button.button-container.action.check-aw-giftcard span {
+    color: #44546A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+/* display none */
+
+html body.RecipeCartContinue.cro-t-ki151_ki152 div#desk_header-search {
+    display: none;
+}
+
+html body.RecipeCartContinue.cro-t-ki151_ki152 div#header-bottom {
+    display: none;
+}
+
+/* display none */
+
+
+/* updated code */
+
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+    html body.RecipeCartContinue #cart-totals {
+        position: absolute;
+        right: 0;
+        top: 40px;
+        background-color: #F4F4F4;
+        padding: 20px !important;
+    }
+
+    html body.RecipeCartContinue #form-validate {
+        width: 65% !important;
+    }
+
+    html body.RecipeCartContinue .cart.table-wrapper .product-item-details,
+    html body.RecipeCartContinue .desktop-actions.action-container.actions-toolbar {
+        width: 100% !important;
+    }
+
+    html body.RecipeCartContinue .desktop-actions.action-container.actions-toolbar {
+        max-width: 240px;
+    }
+
+    html body.RecipeCartContinue #checkout-shopping-cart-items {
+        position: relative;
+    }
+
+    html body.RecipeCartContinue .desktop-item-info-container.col.qty {
+        width: 20%;
+    }
+
+    html body.RecipeCartContinue .update-shopping-container {
+        margin-right: 0 !important;
+        margin-top: 15px;
+    }
+
+    html body.RecipeCartContinue .continue-div.primary {
+        width: 100% !important;
+    }
+
+    html body.RecipeCartContinue .cart-container .cart.table-wrapper .col.qty .input-text {
+        margin-left: 0;
+    }
+
+    html body.RecipeCartContinue [data-th="Item"] {
+        padding-top: 18px !important;
+    }
+
+    html body.RecipeCartContinue .cart.table-wrapper .product-image-wrapper .product-image-photo {
+        margin-left: 5%;
+        margin-right: 0;
+    }
+
+    html body.RecipeCartContinue .cart.table-wrapper .product-image-container {
+        width: 100px !important;
+    }
+
+    html body.RecipeCartContinue .qty-container .decreaseQty,
+    html body.RecipeCartContinue .qty-container .increaseQty {
+        width: 25px;
+        padding: 0;
+        text-align: center;
+        height: 34px;
+    }
+
+    html body.RecipeCartContinue .qty-container input {
+        width: 40px !important;
+        padding: 0 5px !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 1240px) and (min-width: 1141px) {
+    html body.RecipeCartContinue #form-validate {
+        width: 72% !important;
+    }
+
+    html body.RecipeCartContinue #cart-totals {
+        width: 25% !important;
+    }
+
+    html body.RecipeCartContinue .desktop-item-info-container.col.qty {
+        width: 18% !important;
+    }
+}
+
+@media only screen and (max-width: 1140px) and (min-width: 1071px) {
+    html body.RecipeCartContinue .cart.table-wrapper .product-image-container {
+        width: 80px !important;
+    }
+
+    html body.RecipeCartContinue #form-validate {
+        width: 72% !important;
+    }
+
+    html body.RecipeCartContinue #cart-totals {
+        width: 25% !important;
+    }
+
+    html body.RecipeCartContinue .desktop-item-info-container.col.qty {
+        width: 18% !important;
+    }
+}
+
+@media only screen and (max-width: 1070px) and (min-width: 1023px) {
+    html body.RecipeCartContinue #form-validate {
+        width: 75% !important;
+    }
+
+    html body.RecipeCartContinue #cart-totals {
+        width: 22% !important;
+    }
+
+    html body.RecipeCartContinue .desktop-item-info-container.col.qty {
+        width: 18% !important;
+    }
+
+    html body.RecipeCartContinue .cart.table-wrapper .product-image-container {
+        width: 80px !important;
+    }
+
+}
+
+@media only screen and (max-width: 767px) {
+    html body.RecipeCartContinue #mobi_header-search {
+        display: none !important;
+    }
+}

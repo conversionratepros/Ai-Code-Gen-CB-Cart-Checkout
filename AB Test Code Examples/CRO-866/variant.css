@@ -1,0 +1,115 @@
+@media only screen and (min-width: 1024px){
+  html body.RecipeCartContinue #cart-totals {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: #F4F4F4;
+    padding: 20px !important;
+  }
+  
+  html body.RecipeCartContinue #form-validate {
+    width: 65% !important;
+  }
+  
+  html body.RecipeCartContinue .cart.table-wrapper .product-item-details,
+  html body.RecipeCartContinue .desktop-actions.action-container.actions-toolbar{
+   width: 100% !important;
+  }
+  
+  html body.RecipeCartContinue .desktop-actions.action-container.actions-toolbar{
+    max-width: 240px;
+  }
+  
+  html body.RecipeCartContinue #checkout-shopping-cart-items {
+    position: relative;
+  }
+  
+  html body.RecipeCartContinue .desktop-item-info-container.col.qty {
+    width: 20%;
+  }
+  
+  html body.RecipeCartContinue .update-shopping-container {
+    margin-right: 0 !important;
+    margin-top: 15px;
+  }
+  
+  html body.RecipeCartContinue .continue-div.primary {
+    width: 100% !important;
+  }
+  html body.RecipeCartContinue .cart-container .cart.table-wrapper .col.qty .input-text{
+  margin-left: 0;
+  }
+  
+  html body.RecipeCartContinue [data-th="Item"] {
+    padding-top: 18px !important;
+  }
+  
+  html body.RecipeCartContinue .cart.table-wrapper .product-image-wrapper .product-image-photo {
+    margin-left: 5%;
+    margin-right: 0;
+  }
+  
+  html body.RecipeCartContinue .cart.table-wrapper .product-image-container {
+    width: 100px !important;
+  }
+  
+  html body.RecipeCartContinue .qty-container .decreaseQty, 
+  html body.RecipeCartContinue .qty-container .increaseQty{
+      width: 25px;
+      padding: 0;
+      text-align: center;
+      height: 34px;
+  }
+  
+  html body.RecipeCartContinue .qty-container input {
+      width: 40px !important;
+      padding: 0 5px !important;
+  }
+}
+
+@media only screen and (max-width: 1240px) and (min-width: 1141px) {
+  html body.RecipeCartContinue #form-validate {
+      width: 72% !important;
+    }
+
+    html body.RecipeCartContinue #cart-totals{
+      width: 25% !important;
+    }
+    html body.RecipeCartContinue .desktop-item-info-container.col.qty{
+         width: 18% !important;
+    }
+}
+
+@media only screen and (max-width: 1140px) and (min-width: 1071px) {
+    html body.RecipeCartContinue .cart.table-wrapper .product-image-container {
+      width: 80px !important;
+    }
+    html body.RecipeCartContinue #form-validate {
+      width: 72% !important;
+    }
+
+    html body.RecipeCartContinue #cart-totals{
+      width: 25% !important;
+    }
+    html body.RecipeCartContinue .desktop-item-info-container.col.qty{
+         width: 18% !important;
+    }
+}
+
+@media only screen and (max-width: 1070px) and (min-width: 1023px){
+  html body.RecipeCartContinue #form-validate {
+      width: 75% !important;
+    }
+
+  html body.RecipeCartContinue #cart-totals{
+      width: 22% !important;
+   }
+
+   html body.RecipeCartContinue .desktop-item-info-container.col.qty{
+    width: 18% !important;
+  }
+  html body.RecipeCartContinue .cart.table-wrapper .product-image-container {
+    width: 80px !important;
+  }
+
+}

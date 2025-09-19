@@ -1,0 +1,19 @@
+html body.Test-72:not(.cro-t-72-ShowNav) #desk_header-search {
+    display: none;
+}
+
+html body.Test-72:not(.cro-t-72-ShowNav) #header-bottom {
+    display: none;
+}
+
+html body.Test-72:not(.cro-t-72-ShowNav) #mobi_header-search {
+    display: none !important;
+}
+
+body.Test-72.page-layout-1column.checkout-index-index:not(.cro-t-72-ShowNav) .nav-toggle {
+    display: none !important;
+}
+
+html body.Test-72.cro-t-72-ShowNav #header-bottom {
+    display: block !important;
+}

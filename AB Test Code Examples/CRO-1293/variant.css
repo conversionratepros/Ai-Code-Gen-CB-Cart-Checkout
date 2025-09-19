@@ -1,0 +1,272 @@
+/* ----------------MODAL------------------- */
+html body.cre-t-11.cre-t-11-hide .cre-t-11-lightBox {
+    display: none;
+}
+html body.cre-t-11 .cre-t-11-lightBox {
+    display: block;
+}
+html body.cre-t-11 .cre-t-11-lightBox {
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 999992;
+    padding: 10px;
+    overflow-y: auto;
+    display: flex;
+}
+html body.cre-t-11 .cre-t-11-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 0.8;
+    background: #00000080;
+    height: 850px;
+    min-height: 100%;
+}
+html body.cre-t-11 .cre-t-11-modal {
+    /* border-radius: 6px; */
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    width: 100%;
+    text-align: left;
+    overflow: visible;
+    box-sizing: border-box !important;
+    margin: auto !important;
+    top: 60px;
+}
+html body.cre-t-11:not(.cre-t-11-hide) {
+    overflow: hidden;
+    height: auto !important;
+}
+html body.recipe-78-test-1 .cro-exitPopup-top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+@media (min-width: 1024px) {
+    html body.cre-t-11 .cre-t-11-modal {
+        max-width: 885px;
+    }
+}
+@media (min-width: 768px) {
+    .recipe-78-test-1.cro-modal-open .cre-t-11-lightBox {
+        display: block !important;
+    }
+    
+    html body.recipe-78-test-1 .cro-exitPopup-top-img {
+        max-width: 35px;
+        padding: 3px;
+        cursor: pointer;
+    }
+    
+    html body.recipe-78-test-1 .cro-exitPopup-wrapper {
+    background-color: #fff;
+        padding: 5px;
+    }
+    html body.recipe-78-test-1 .cro-exitPopup-bottom-middleBox-one .cro-middleBox-img {
+    width: 108px;
+    }
+    
+    html body.recipe-78-test-1 .cro-exitPopup-bottom-middleBox-two .cro-middleBox-img {
+    width: 145px;
+    }
+    
+    html body.recipe-78-test-1 .cro-exitPopup-bottom-middleBox-three .cro-middleBox-img {
+    width: 102px;
+    }
+    html body.recipe-78-test-1 .cro-exitPopup-bottom-middleBox-four .cro-middleBox-img {
+    max-width: 70px;
+        height: 70px;
+    }
+    html body.recipe-78-test-1 h2.cro-exitPopup-bottom-heading {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000000;
+        font-family: 'Poppins', Arial, sans-serif;
+    }
+    
+    html body.recipe-78-test-1 p.cro-exitPopup-bottom-para {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 26px;
+        font-family: 'Poppins', Arial, sans-serif;
+    }
+    
+    html body.recipe-78-test-1 h3.cro-exitPopup-bottom-subHeading {
+        font-family: 'Poppins', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000000;
+        margin-bottom: 0;
+        
+    }
+    
+    html body.recipe-78-test-1 p.cro-exitPopup-bottom-subPara {
+    font-family: 'Poppins', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #000000;
+    }
+    html body.recipe-78-test-1 .cro-exitPopup-bottom-middle {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+    
+    html body.recipe-78-test-1 .cro-middle-box {
+        flex: 1;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 10px;
+        width: 25%;
+    }
+    
+    html body.recipe-78-test-1 .cro-middleBox-img {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    html body.recipe-78-test-1 .cro-middleBox-text {
+        margin-top: 10px;
+    }
+    
+    html body.recipe-78-test-1 p.cro-middleBox-textLine {
+        font-family: 'Poppins', Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0em;
+        color: #000000;
+    }
+    
+    html body.recipe-78-test-1 .cro-middleBox-btnBtn a {
+        font-family: 'Poppins', Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        color: #000000;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    
+    html body.recipe-78-test-1 .cro-exitPopup-bottom-endBox {
+        max-width: 192px;
+        margin: 30px auto;
+    }
+    
+    html body.recipe-78-test-1 .cro-exitPopup-bottom-endBtn {
+        font-family: 'Poppins', Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #000000;
+        padding: 10px;
+        cursor: pointer;
+        height: 40px;
+    }
+    html body.recipe-78-test-1 .cro-exitPopup-bottom-endBtn:hover {
+        background: #fff;
+        border: 1px solid #586e86;
+        color: #586e86;
+    }
+    html body.recipe-78-test-1.cro-modal-open {
+        overflow: hidden;
+    }
+    html body.recipe-78-test-1.cro-modal-none .cro-exit-overLay{
+        display: none;
+    }
+    html body.recipe-78-test-1.cro-modal-none .cro-exitPopup{
+        display: none;
+    }
+    
+}
+/* @media (min-width: 768px) and (max-width: 1200px) {
+    html body.recipe-78-test-1 p.cro-middleBox-textLine {
+        min-height: 280px;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1411px) {
+    html body.recipe-78-test-1 p.cro-middleBox-textLine {
+        min-height: 250px;
+    }
+}
+@media (min-width: 1412px) and (max-width: 1563px) {
+    html body.recipe-78-test-1 p.cro-middleBox-textLine {
+        min-height: 220px;
+    }
+} */
+@media (min-width: 768px) and (max-width: 900px) {
+    html body.recipe-78-test-1 p.cro-middleBox-textLine {
+        min-height: 210px;
+    }
+}
+@media (min-width: 901px) and (max-width: 1563px) {
+    html body.recipe-78-test-1 p.cro-middleBox-textLine {
+        min-height: 180px;
+    }
+}
+@media (min-width: 1564px) {
+    html body.recipe-78-test-1 p.cro-middleBox-textLine {
+        min-height: 170px;
+    }
+}
+@media (max-width: 767px) {
+    html body.recipe-78-test-1 .cro-exitPopup{
+        display: none;
+    }
+}
+html body.recipe-78-test-1 .cro-exitPopup-bottom {
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+html body.recipe-78-test-1 .cro-exitPopup-bottomBox-two {
+    max-width: 537px;
+    margin: 0 auto;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+    html body.cre-t-11 .cre-t-11-modal {
+        width: 95%;
+    }
+    html body.recipe-78-test-1 .cro-exitPopup-bottom {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+html body.recipe-78-test-1 .cro-exitPopup-bottomBox-three {
+    max-width: 428px;
+    margin: 0 auto;
+}
+html body.recipe-78-test-1 .cro-exitPopup-bottomBox-four {
+    max-width: 428px;
+    margin: 0 auto;
+}
