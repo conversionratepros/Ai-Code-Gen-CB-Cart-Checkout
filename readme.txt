@@ -25,9 +25,10 @@ Repository structure and file meanings.
 1.4 These can be refernced to build new AB tests
 1.5 Do not refernce tests in "New AB Tests" Folder
 
-2. Each repository contains a Control.html file. 
-2.1 This is how the page looks where AB tests will run on. 
-2.2 This has be sourced from inspecting elements and viewing page source in a a browser. 
+2. Each repository contains a Control.html file. For this repository there are three, cart, paymentpage and checkout.
+2.1 Do not cross contaminate code from the three control files when generating ab test code.
+2.3 This is how the page looks where AB tests will run on. 
+2.3 This has be sourced from inspecting elements and viewing page source in a a browser. 
 
 3. Each repository contains a Convert.com Deployments folder. 
 3.1 These are deployments that are currently active on convert.com
